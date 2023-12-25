@@ -1,0 +1,10 @@
+/* Text */
+.uppercase {
+    text-transform: uppercase;
+}
+.text-white {
+    color: var(--zeero-white);
+}
+.text-decoration-none {
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+/* Main header */
+#header {
+    background-color: var(--zeero-dark-gray);
+    max-height: var(--zeero-max-height-header);
+}
+
+#header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-inline: 3%;
+
+    width: var(--zeero-min-max-width);
+
+    padding: .75rem 0;
+}
+
+#main-menu > ul {
+    display: flex;
+    gap: 3rem;
+}

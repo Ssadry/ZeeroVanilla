@@ -1,0 +1,10 @@
+:root {
+    /* COLOURS */
+    --zeero-white: rgb(255, 255, 255);
+    --zeero-light-gray: rgb(202, 202, 202);
+    --zeero-dark-gray: rgb(48, 48, 48);
+
+    /* SIZES */
+    --zeero-min-max-width: clamp(150, 100%, 1536px);
+    --zeero-max-height-header: 94.27px;
+}

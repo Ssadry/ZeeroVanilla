@@ -1,0 +1,29 @@
+.philosophy {
+    background-color: var(--zeero-dark-gray);
+
+    height: calc(85dvh - var(--zeero-max-height-header));
+
+    display: grid;
+    place-items: center;
+}
+
+.philosophy > div {
+    display: grid;
+    gap: 1rem;
+
+    margin-inline: 3%;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1rem;
+    place-items: center;
+    color: var(--zeero-white);
+}
+
+.philosophy > div h2 {
+    font-size: 2em;
+}
+
+.philosophy > div p {
+    width: clamp(150px,100%,600px);
+    font-size: 1em;
+}

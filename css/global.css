@@ -1,0 +1,21 @@
+/* For all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* body {
+    background-color: rgb(199, 199, 199);
+} */
+
+/* All unordered list without styled */
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}

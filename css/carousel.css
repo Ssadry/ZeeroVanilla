@@ -1,0 +1,64 @@
+.carousel {
+    width: 100%;
+    position: relative;
+
+    height: calc(115dvh); 
+}
+
+.carousel :is(picture, img) {
+    display: block;
+    width: -webkit-fill-available;
+    height: inherit;
+}
+
+.carousel picture {
+    transition: opacity 3s ease-in-out;
+    opacity: 0;
+}
+
+.carousel img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel picture:not(:first-child) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel .dots {
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    flex-direction: column;
+
+    padding-top: 30dvh;
+    z-index: 1;
+}
+
+.carousel .dots span {
+    display: block;
+    width: 11px;
+    aspect-ratio: 1;
+    border: 1px solid black;
+    border-radius: 100%;
+
+    z-index: 1;
+    transition: background-color 3s ease-in;
+    background-color: black;
+}
+
+.dot-selected {
+    background-color: transparent !important;
+}
+
+.picture-opacity-1 {
+    opacity: 1 !important;
+    z-index: 1;
+}
